@@ -22,7 +22,7 @@ npm install
 ## Usage
 To parse a Quake log file and generate a report, run the following command:
 ```
-npm start -- path/to/quake.log
+npm start
 ```
 
 ## Development
