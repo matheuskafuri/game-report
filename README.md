@@ -12,10 +12,36 @@ Quake Log Parser is a Node.js application that parses Quake game log files and g
 - Generates reports in JSON format.
 
 ## Installation
-
 Clone the repository and install the dependencies:
-
-```bash
+```
 git clone https://github.com/matheuskafuri/game-report.git
 cd game-report
 npm install
+```
+
+## Usage
+To parse a Quake log file and generate a report, run the following command:
+```
+npm start -- path/to/quake.log
+```
+
+## Development
+To start the application in development mode with live reloading, run:
+```
+npm run start:dev
+```
+
+## Testing
+To run the tests, use the following command:
+```
+npm test
+```
+
+## Linting
+To check for linting errors, run:
+```
+npm run lint
+```
+
+## Contributing
+Contributions are welcome! Please feel free to submit pull requests or open issues.
